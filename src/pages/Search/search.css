@@ -1,0 +1,13 @@
+.image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;    
+}
+
+.image-gallery img{
+    width:200px;
+    height:auto;
+    margin:10px;
+    margin-top:5px;
+}
+

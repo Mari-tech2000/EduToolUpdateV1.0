@@ -1,0 +1,13 @@
+
+
+.imgSyle{
+    width:50%;
+    height: 50%;
+  }
+
+  .labelE{
+    align-items:left;
+  }
+  .checkbox-label{
+    display: inline-block;
+  }
