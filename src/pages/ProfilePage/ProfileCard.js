@@ -10,7 +10,7 @@ import { Button } from 'react-bootstrap';
 function ProfileCard(){
     return(
     <>
-      <div style={{textAlign:'center', margin:'50px'}}>
+      <div style={{textAlign:'center', margin:'70px'}}>
       <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
    <div style={{marginTop:'18px'}}><Avatar

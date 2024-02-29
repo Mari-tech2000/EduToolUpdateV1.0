@@ -7,6 +7,7 @@ import Search from './pages/search';
 import Home from './pages/home';
 import Settings from './pages/settings';
 import Eventchange from './pages/exploreEvents/Eventchange';
+import Profile from './pages/ProfilePage/Profile';
 import Register from './pages/register';
 import Feed from './pages/feed';
 import CreatePage from './pages/create/CreatePage';
@@ -32,6 +33,7 @@ function App() {
   <Route path='/about' element={<About></About>}></Route>
   <Route path='/search' element={<Search></Search>}></Route>
   <Route path='/settings' element={<Settings></Settings>}></Route>
+  <Route path='/Profile' element={<Profile></Profile>}></Route>
 </Routes>
 </div>
     </>

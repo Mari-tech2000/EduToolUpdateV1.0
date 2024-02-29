@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import "U:/website/edutool/src/components/shared/style/feed.css"
 import MyImage from 'U:/website/edutool/src/components/images/Post1.jpg'
 import LibraryAddRoundedIcon from '@mui/icons-material/LibraryAddRounded';
@@ -61,9 +61,9 @@ return(
     <br></br>
     <Card style={{ width: '29rem' }} className="container">
     <table>
-    <th>
+    <Link to='/Profile'> <th>
  <Avatar sx={{ bgcolor: deepPurple[500] }} alt="Remy Sharp" style={{marginBottom:'10px'}}>U</Avatar>
- </th><th>
+ </th> </Link><th>
   <h5 style={{marginLeft:'20px'}}>User 2</h5>
  </th>
  </table>
